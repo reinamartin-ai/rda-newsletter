@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>IA en ingeniería estructural</title></head>
+<body style="margin:0;padding:0;background:#EDEDED;">
+<!-- PLANTILLA DEL NEWSLETTER MENSUAL. Reemplazar los {{...}}; repetir los bloques marcados. -->
+<div style="display:none;max-height:0;overflow:hidden;">{{PREHEADER: una frase con lo más importante del mes}}</div>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#EDEDED;">
+<tr><td align="center" style="padding:24px 12px;">
+<table role="presentation" width="600" cellpadding="0" cellspacing="0" style="width:100%;max-width:600px;background:#FFFFFF;font-family:Calibri,Segoe UI,Arial,sans-serif;color:#3A3A3A;">
+
+  <!-- Encabezado -->
+  <tr><td style="padding:22px 28px 18px 28px;">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
+      <td valign="middle"><img src="https://reinamartin-ai.github.io/rda-newsletter/img/logo-rda.png" width="190" alt="RDA ingeniería de calidad" style="display:block;border:0;width:190px;height:auto;"></td>
+      <td valign="middle" align="right" style="font-size:12px;line-height:16px;color:#7A7A7A;">Reporte mensual<br><strong style="color:#58595A;font-size:14px;">{{MES AÑO}}</strong></td>
+    </tr></table>
+  </td></tr>
+  <tr><td style="height:4px;background:#D71921;font-size:0;line-height:0;">&nbsp;</td></tr>
+
+  <!-- Portada: banner-1..4 según el mes (ver instrucciones) -->
+  <tr><td><img src="https://reinamartin-ai.github.io/rda-newsletter/img/banner-{{N}}.jpg" width="600" alt="" style="display:block;border:0;width:100%;height:auto;"></td></tr>
+  <tr><td style="background:#58595A;padding:20px 28px;">
+    <div style="font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#F3B5B8;">Equipo de IA · RDA Ingeniería</div>
+    <div style="font-size:26px;line-height:32px;font-weight:bold;color:#FFFFFF;margin-top:4px;">IA en ingeniería estructural</div>
+    <div style="font-size:15px;line-height:21px;color:#E6E6E6;margin-top:4px;">Lo más relevante de {{MES AÑO}} para nuestra industria</div>
+  </td></tr>
+
+  <!-- Saludo + resumen -->
+  <tr><td style="padding:24px 28px 8px 28px;font-size:15px;line-height:22px;">
+    Hola a todos, este es el reporte mensual de novedades de IA aplicada a la ingeniería estructural.
+  </td></tr>
+  <tr><td style="padding:8px 28px 8px 28px;">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
+      <td style="background:#F5F5F5;border-left:4px solid #D71921;padding:14px 18px;font-size:15px;line-height:22px;">
+        <div style="font-size:12px;letter-spacing:1.5px;text-transform:uppercase;color:#D71921;font-weight:bold;margin-bottom:6px;">En resumen</div>
+        {{RESUMEN EJECUTIVO: 3-4 frases}}
+      </td></tr></table>
+  </td></tr>
+
+  <!-- SECCIÓN (repetir para Industria / Investigación / Software y herramientas; omitir si no hay novedades) -->
+  <tr><td style="padding:22px 28px 4px 28px;">
+    <div style="font-size:13px;letter-spacing:2px;text-transform:uppercase;color:#D71921;font-weight:bold;border-bottom:1px solid #E3E3E3;padding-bottom:6px;">{{NOMBRE DE LA SECCIÓN}}</div>
+  </td></tr>
+  <!-- NOVEDAD (repetir). Con imagen: -->
+  <tr><td style="padding:12px 28px;">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
+      <td width="132" valign="top" style="padding-right:14px;"><a href="{{URL}}"><img src="{{URL DE LA IMAGEN}}" width="132" alt="" style="display:block;border:0;width:132px;height:88px;object-fit:cover;border-radius:3px;"></a></td>
+      <td valign="top">
+        <a href="{{URL}}" style="font-size:16px;line-height:21px;font-weight:bold;color:#3A3A3A;text-decoration:none;">{{TÍTULO}}</a>
+        <div style="font-size:14px;line-height:20px;margin-top:4px;">{{2-3 líneas: qué es y por qué importa}}</div>
+        <div style="font-size:12px;color:#8A8A8A;margin-top:6px;">{{Fuente}} · {{fecha}} · <a href="{{URL}}" style="color:#D71921;text-decoration:none;">Leer más →</a></div>
+      </td></tr></table>
+  </td></tr>
+  <!-- NOVEDAD sin imagen (si la fuente no tiene una buena): igual pero sin la primera celda -->
+
+  <!-- Qué podríamos aplicar en RDA -->
+  <tr><td style="padding:24px 28px 8px 28px;">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
+      <td style="background:#D71921;padding:16px 20px;color:#FFFFFF;">
+        <div style="font-size:13px;letter-spacing:2px;text-transform:uppercase;font-weight:bold;margin-bottom:8px;">Qué podríamos aplicar en RDA</div>
+        <div style="font-size:15px;line-height:22px;"><strong>1.</strong> {{idea 1}}<br><strong>2.</strong> {{idea 2}}<br><strong>3.</strong> {{idea 3}}</div>
+      </td></tr></table>
+  </td></tr>
+
+  <!-- Para seguir de cerca -->
+  <tr><td style="padding:16px 28px 8px 28px;">
+    <div style="font-size:13px;letter-spacing:2px;text-transform:uppercase;color:#58595A;font-weight:bold;margin-bottom:6px;">Para seguir de cerca</div>
+    <div style="font-size:14px;line-height:21px;">• {{tema emergente 1}}<br>• {{tema emergente 2}}</div>
+  </td></tr>
+
+  <!-- Pie -->
+  <tr><td style="padding:24px 28px 0 28px;"><div style="border-top:1px solid #E3E3E3;"></div></td></tr>
+  <tr><td style="padding:14px 28px 24px 28px;font-size:12px;line-height:18px;color:#8A8A8A;">
+    Si quieren sumar temas, empresas o programas para seguir, respondan este mail.<br>
+    Reporte preparado por un agente de IA (Claude) para el equipo de IA de RDA Ingeniería. Las fuentes están enlazadas en cada novedad; conviene verificarlas antes de citarlas.
+  </td></tr>
+</table>
+</td></tr></table>
+</body></html>
